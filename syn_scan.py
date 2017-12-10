@@ -120,3 +120,4 @@ for x in range(1, 65535 + 1):
         print(x)
 
 #kill sniffer
+p.terminate()
