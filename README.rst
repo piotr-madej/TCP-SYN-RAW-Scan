@@ -1,4 +1,4 @@
-Usage: syn_scan.py [-h] -s SOURCE -d DESTINATION -w WAIT
+Usage: syn_scan.py -s SOURCE -d DESTINATION -w WAIT
   -h, --help            show this help message and exit
   -s SOURCE, --source SOURCE
                         Source IP | x.x.x.x
