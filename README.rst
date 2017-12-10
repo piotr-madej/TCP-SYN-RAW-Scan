@@ -15,3 +15,5 @@ Requirements
     from struct import pack, unpack
     from scapy.all import *
     from multiprocessing import Process
+    
+Scan result will be store in syn_scan.log
