@@ -110,7 +110,8 @@ for x in range(1, 65535 + 1):
         sent = s.sendto(tcp_header, (args.destination, 1))
     except:
         print("Unexpected error. Repeat SCAN.")
-    
+        exit(0)
+
     try:
         sleep(args.wait)
     except KeyboardInterrupt:
