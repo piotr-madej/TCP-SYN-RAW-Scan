@@ -1,7 +1,11 @@
 Requirements
 
-.. literalinclude:: syn_scan.py
-   :lines: 1-4
+.. code-block:: python
+    import socket, argparse, sys, logging
+    from time import sleep
+    from struct import pack, unpack
+    from scapy.all import *
+    from multiprocessing import Process
 
 Usage: syn_scan.py [-h] -s SOURCE -d DESTINATION -w WAIT
   -h, --help            show this help message and exit
