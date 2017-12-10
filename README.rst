@@ -1,11 +1,12 @@
 Requirements
 
-code:: python
+```python
     import socket, argparse, sys, logging
     from time import sleep
     from struct import pack, unpack
     from scapy.all import *
     from multiprocessing import Process
+```
 
 Usage: syn_scan.py [-h] -s SOURCE -d DESTINATION -w WAIT
   -h, --help            show this help message and exit
