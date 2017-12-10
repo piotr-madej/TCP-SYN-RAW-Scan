@@ -1,5 +1,6 @@
 Requirements
-.. code:: python
+
+code:: python
     import socket, argparse, sys, logging
     from time import sleep
     from struct import pack, unpack
@@ -7,7 +8,6 @@ Requirements
     from multiprocessing import Process
 
 Usage: syn_scan.py [-h] -s SOURCE -d DESTINATION -w WAIT
-Arguments:
   -h, --help            show this help message and exit
   -s SOURCE, --source SOURCE
                         Source IP | x.x.x.x
